@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Del Akuliga | Operations That Scale</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body { margin:0; font-family:'Inter',sans-serif; color:#111; background:#f9f9f9; }
+    .hero { position:relative; height:100vh; background:#222 url('https://via.placeholder.com/1600x900') center/cover; color:#fff; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center; }
+    .hero h1 { font-size:3rem; margin:0; }
+    .hero p { font-size:1.2rem; margin:0.75rem 0; max-width:600px; }
+    .buttons a { margin:0.5rem; padding:0.75rem 1.5rem; background:#4CAF50; color:#fff; text-decoration:none; border-radius:4px; }
+    .section { padding:4rem 1rem; max-width:900px; margin:0 auto; }
+    .section h2 { font-size:2rem; margin-bottom:1rem; }
+    .about, .skills, .contact { background:#fff; margin-bottom:2rem; }
+    .work .item { margin-bottom:1.5rem; }
+    .timeline table { width:100%; border-collapse:collapse; }
+    .timeline th, .timeline td { padding:0.75rem; border:1px solid #ddd; }
+    .testimonials blockquote { font-style:italic; color:#555; margin:1rem 0; padding-left:1rem; border-left:4px solid #4CAF50; }
+    .footer { text-align:center; padding:2rem 1rem; font-size:0.9rem; color:#777; }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Operations That Scale. Systems That Stick.</h1>
+    <p>Delegate Akuliga — Building efficient, ethical supply chains across Africa.</p>
+    <div class="buttons">
+      <a href="#contact">Work With Me</a>
+      <a href="#resume">Download My Resume</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section about">
+    <h2>Who I Am</h2>
+    <p>I'm <strong>Delegate "Del" Akuliga</strong>, a systems thinker based in Ghana. I excel at transforming fragmented, high-friction processes into organized, scalable operations. From launching a nationwide app and delivery fleet with Melcom to leading cross-border sourcing and trade systems with SAFI, I build from the ground up—and build to last.</p>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="section work">
+    <h2>What I Do</h2>
+    <div class="item">
+      <h3>🧩 Operational System Design</h3>
+      <p>Built a fraud-proof return process at SAFI across 20+ suppliers and two countries—cutting payment disputes by 40%.</p>
+    </div>
+    <div class="item">
+      <h3>📦 Supply Chain Execution</h3>
+      <p>Spearheaded the execution of over 50 container exports of recyclable materials in Q1—meeting rigid quality and documentation standards.</p>
+    </div>
+    <div class="item">
+      <h3>📱 Tech‑Driven Logistics</h3>
+      <p>Led the launch of Melcom’s “NOW” delivery app—designing courier workflows, tracking systems, and live dashboards.</p>
+    </div>
+    <div class="item">
+      <h3>🌍 Cross‑Border Trade Ops</h3>
+      <p>Manage trade relationships with global buyers, balancing compliance, pricing, and market volatility from shipment to settlement.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section skills">
+    <h2>Skills & Tools</h2>
+    <ul>
+      <li>🗺️ Process Mapping (Lucidchart · Notion · Excel)</li>
+      <li>📊 Data & Analysis (Power BI · Google Sheets · Basic SQL)</li>
+      <li>🌐 Remote Operations (Slack · ClickUp · Notion · JotForm)</li>
+      <li>🔐 Supplier Audits & Contracts</li>
+      <li>📑 Documentation Systems</li>
+      <li>💵 Performance‑Based Funding Models</li>
+    </ul>
+  </section>
+
+  <!-- Timeline Section -->
+  <section class="section timeline">
+    <h2>Career Timeline</h2>
+    <table>
+      <tr><th>When</th><th>Role</th><th>Company</th><th>Highlights</th></tr>
+      <tr><td>2024–Present</td><td>Head of Ops (Africa)</td><td>SAFI</td><td>Scaled sourcing, trade ops, QA processes across Ghana & Nigeria</td></tr>
+      <tr><td>2023</td><td>Delivery Ops Lead</td><td>Melcom Ghana</td><td>Launched nationwide last‑mile delivery app & operations</td></tr>
+      <tr><td>2021–22</td><td>Strategy Consultant</td><td>Independent</td><td>Advised startups on logistics & operations strategy</td></tr>
+    </table>
+    <p><a id="resume" href="#">Download Full Resume</a></p>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="section testimonials">
+    <h2>What People Say</h2>
+    <blockquote>“Del builds order out of chaos. When we had fragmented suppliers, unreliable returns, and poor traceability, he gave us a playbook—and the results followed.”<br>— Rishi, CEO, SAFI</blockquote>
+    <blockquote>“Whether in delivery or export trade, Del doesn't just build systems. He builds confidence.”<br>— Jake, Former Ops Lead, SAFI Africa</blockquote>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section contact">
+    <h2>Get in Touch</h2>
+    <p>Email: <a href="mailto:delakuliga@gmail.com">delakuliga@gmail.com</a></p>
+    <p>LinkedIn: <a href="#">linkedin.com/in/delakuliga</a></p>
+    <p>Book a Call: <a href="#">[Calendly Link]</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    © 2025 Delegate Akuliga | Built with purpose.
+  </footer>
+
+</body>
+</html>
